@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+
+
+	<div id="tunesApp">
+
+		<nav>
+			<button id="demo-menu-lower-left"
+        	class="mdl-button mdl-js-button mdl-button--icon">
+  			<i class="material-icons">more_vert</i>
+			</button>
+
+			<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
+  			<li class="mdl-menu__item"><router-link to="/">Home</router-link></li>
+  			<li class="mdl-menu__item"><router-link to="/comics">Comics</router-link></li>
+  			<li class="mdl-menu__item"><router-link to="/movies">Movies</router-link></li>
+			</ul>
+		</nav>
+		<!-- <input type="number" v-model="limit">
+		<select v-model="entity">
+			<option value="song">Songs</option>
+			<option value="musicVideo">Videos</option>
+		</select> -->
+		
+				<!-- <form action="#"> -->
+
+					<hr>
+
+		<router-view></router-view>
+		
+	  
+
+	</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

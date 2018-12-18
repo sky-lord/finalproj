@@ -1,0 +1,35 @@
+body {
+	background-color: #ccc;
+
+}
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: left;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  overflow: scroll;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 200px;
+}
+
+.title {
+  overflow: hidden;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tunesApp {
+
+}
